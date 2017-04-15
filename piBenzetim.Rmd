@@ -1,17 +1,23 @@
 ---
 title: "İstatistik kullanarak, pi'nin değerini hesaplamak"
+author: Dr. Uzay Çetin
 output: html_notebook
 ---
+
+[$\leftarrow$ Ka|Ve](https://uzay00.github.io/kahve/)
+ 
+
 Bu çalışmada, H. Sait Ölmez'in Data İstanbul meetup etkinliğinde gerçekleştirmiş olduğu "İstatistik: Daha kolay bir yolu var mı?" sunumundan yararlanılmıştır. etkinliğin orjinal kodlarına 
  [şu adresten](https://github.com/solmez/dataistanbul)
 ulaşılabilirsiniz.
-
-
-[$\leftarrow$ Ka|Ve](https://uzay00.github.io/kahve/)
 ---
 
-* Yazar: 
-     * Dr. Uzay Çetin
+
+                                                    
+
+
+
+
 * Amaç: 
      * istatistik kullanarak, pi'nin değerini hesaplamak
 * Yöntem: 
@@ -64,6 +70,7 @@ cat("N=10000 ken pi =", piHesabi(10000))
 cat("N=100000 ken pi =", piHesabi(100000))
 ```
 Dikkat ederseniz, $N$ artıkça $\pi$ sayısına daha çok yaklaşıyoruz.
+
 
 
 
